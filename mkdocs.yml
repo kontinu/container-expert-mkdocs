@@ -89,6 +89,8 @@ extra:
 plugins:
   - search:
       lang: es
+  # - encryptcontent:
+  #       global_password: 'kontinu'
 
 markdown_extensions:
   - attr_list

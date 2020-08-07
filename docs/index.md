@@ -1,4 +1,3 @@
-
 <img src="assets/images/logo.png" class="center" alt="kontinu" style="width:300px;">
 
 # Bienvenido 😃
@@ -22,7 +21,7 @@ A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este boo
 
 
 ??? info "Agenda 🗓"
-    Encuentra la agenda semanal en esta [página](./agenda.md)
+    Encuentra la agenda semanal en esta [página](./extras/agenda.md)
 ---
 
 # Cursos

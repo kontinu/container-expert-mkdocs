@@ -7,7 +7,7 @@ git:
 	@git push origin master || true
 
 init:
-	@python3 -m pip install -r requirements
+	@python3 -m pip install -r requirements.txt
 
 serve:
 	@python3 -m mkdocs serve
