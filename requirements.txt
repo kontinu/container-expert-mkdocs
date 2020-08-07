@@ -3,3 +3,4 @@ material
 mkdocs-blog-plugin
 mkdocs-macros-plugin
 mkdocs-encryptcontent-plugin
+mkpdfs-mkdocs
