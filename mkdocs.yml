@@ -4,6 +4,8 @@ site_url: https://kontinu.github.io/container-expert-mkdocs/
 
 nav:
     - Container Bootcamp Expert: 'index.md'
+    - Acerca de Mi: 'about.md'
+    - Contacto: 'contact.md'
     - Semana 1️:
         Tópicos: 'semana1/topics.md'
         Día 1:
@@ -20,8 +22,6 @@ nav:
           - 'semana2/d5.md'
         Día 6:
           - 'semana2/d6.md'
-    - Acerca de Mi: 'about.md'
-    - Contacto: 'contact.md'
     - Extras:
       - Index: 'extras/extras.md'
       - Agenda: 'extras/agenda.md'
