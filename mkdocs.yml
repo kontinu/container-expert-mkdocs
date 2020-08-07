@@ -1,0 +1,117 @@
+site_name: kontinu
+
+nav:
+    - Inicio: 'index.md'
+    
+    # - Docker:
+    #     - docker/index.md
+    #     - "Compose to Swarm":
+    #         - Intro: docker/compose-to-swarm/index.md
+    #         - Single Engine:
+    #             - "Simple Docker": "docker/compose-to-swarm/docker.md"
+    #             - "Docker Compose": "docker/compose-to-swarm/docker-compose.md"
+    #             - "Awesome Compose": "docker/compose-to-swarm/awesome-compose.md"
+    #         - Multi Engine:
+    #             - "Intro Docker Swarm": "docker/compose-to-swarm/intro-swarm.md"
+    #             - "Docker Swarm": "docker/compose-to-swarm/swarm.md"
+    #             - "Compose in k8": "docker/compose-to-swarm/compose-k8.md"
+
+    # - Kubernetes:
+    #     - kubernetes/index.md
+    #     - Helm:
+    #         - Intro: kubernetes/helm/index.md
+    #         - 1. Comenzando: kubernetes/helm/1.start.md
+    #         - 2. Charts: kubernetes/helm/2.charts.md
+    #         - 3. Subcharts: kubernetes/helm/3.subcharts.md
+    #         - 4. Templates: kubernetes/helm/4.templates.md
+
+    - Acerca de Mi: 'about.md'
+    - Contacto: 'contact.md'
+
+
+
+site_author: Marcos Cano
+site_description: All about Docker, K8 and Containers in general
+
+#google_analytics: ['UA-36723568-3', 'mkdocs.org']
+
+repo_name: kontinu
+#repo_url: https://github.com/jmarcos-cano/kontinu/src
+edit_uri: ""
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: "grey"
+    accent: 'purple'
+  logo: 'assets/images/logo.png'
+  font:
+    text: 'Ubuntu'
+    code: 'Inconsolata'
+  language: 'es'
+  favicon: 'assets/images/favicon.ico'
+  features:
+    - instant
+    - tabs
+    #- search.highlight
+  #include_sidebar: True
+
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter-square
+      link: https://twitter.com/Marcos_Kno
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/kontinu'
+    - icon: fontawesome/brands/docker
+      link: 'https://hub.docker.com/orgs/kontinu'
+    - icon: fontawesome/solid/home
+      link: 'www.kontinu.io'
+#   manifest: 'manifest.webmanifest'
+
+
+#     - type: 'linkedin'
+#       link: 'https://www.linkedin.com/in/marcos-cano-804a1787'
+
+plugins:
+  - search:
+      lang: es
+
+markdown_extensions:
+  - codehilite:
+        guess_lang: False
+        use_pygments: True
+        noclasses: True
+        #linenums: true
+        pygments_style: manni
+  - footnotes
+  #- admonition
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.extra
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.mark
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.smartsymbols
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_div_format
+
+extra_css:
+    - assets/css/extra.css
+    - assets/css/contact_form.css
+
+use_directory_urls: true

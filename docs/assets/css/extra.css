@@ -1,0 +1,18 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+[data-md-color-scheme="kontinu"] {
+    --md-primary-fg-color:        #121414;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark:  #0a0a0a;
+    --md-hue: 210;
+ }
+
+ input, select, textarea{
+    color: #b700ff;
+}
