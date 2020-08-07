@@ -17,7 +17,7 @@ Desde 2017 tengo el honor de servir a la comunidad siendo Community Leader, no m
 
 En el año 2020 durante el DockerCon tuve el honor de ser premiado con "Community Leader Award"; por la pasión que siempre he tenido de esforzarme y compartir.
 
-<img src="/assets/images/com_leader.png" class="center" alt="Docker Guatemala Meetup" style="width:500px;">
+<img src="/assets/images/com_leader.png" class="center" alt="DockerCon CL Award" style="width:500px;">
 
 
 

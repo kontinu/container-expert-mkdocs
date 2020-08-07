@@ -152,4 +152,4 @@ extra_css:
     - assets/css/contact_form.css
     - assets/css/progressbar.css
 
-use_directory_urls: true
+use_directory_urls: false
