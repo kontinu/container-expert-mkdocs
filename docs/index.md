@@ -12,18 +12,19 @@
 
 Si estas aqui con nosotros es porque hay un deseo en ti de crecer, superarte y ser mejor profesional.
 
-A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este bootcamp 🏋🏻‍♀️ en cual esperamos sea de provecho y beneficio para tu carrera profesional, te recordamos que los tópicos 
-- [Docker 🐳](/docker/)
-- [Kubernetes ☸️](/kubernetes/)
+A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este bootcamp 🏋🏻‍♀️ en cual esperamos sea de provecho y beneficio para tu carrera profesional,
+
+
+- [Docker 🐳](https://docker.com)
+- [Kubernetes ☸️](https://kubernetes.io)
 - Container Orchestrators 🎼
 - Containers in General. 📦
-- Devops
 
 
 ??? info "Agenda 🗓"
     Encuentra la agenda semanal en esta [página](./agenda.md)
 ---
 
-# Courses
+# Cursos
 
-I will soon start launching new docker and kubernetes courses, obviously in `español`; they will be aimed to all the spanish speaking community that will be encouraged by these courses.
+Estare lanzando próximamente cursos en Udemy, debido a que varias personas nos indicaron que "Les gustaría recibir estos cursos a su propio ritmo"

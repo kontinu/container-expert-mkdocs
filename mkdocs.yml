@@ -3,13 +3,21 @@ site_name: kontinu
 nav:
     - Inicio: 'index.md'
     - Semana 1️:
-        Día 1: 'semana1/d1.md'
+        Día 1:
+          - 'semana1/d1.md'
         Día 2: 'semana1/d2.md'
         Día 3: 'semana1/d3.md'
     - Semana 2:
         Día 1: 'semana2/d1.md'
         Día 2: 'semana2/d2.md'
         Día 3: 'semana2/d3.md'
+    - Acerca de Mi: 'about.md'
+    - Contacto: 'contact.md'
+    - Extras:
+      - Index: 'extras/extras.md'
+      - Agenda: 'extras/agenda.md'
+      - Feedback: 'extras/feedback.md'
+
     # - Docker:
     #     - docker/index.md
     #     - "Compose to Swarm":
@@ -31,10 +39,6 @@ nav:
     #         - 2. Charts: kubernetes/helm/2.charts.md
     #         - 3. Subcharts: kubernetes/helm/3.subcharts.md
     #         - 4. Templates: kubernetes/helm/4.templates.md
-
-    - Acerca de Mi: 'about.md'
-    - Contacto: 'contact.md'
-    - Agenda: 'agenda.md'
 
 
 
