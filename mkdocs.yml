@@ -1,5 +1,5 @@
 site_name: kontinu
-site_url: https://kontinu.github.io/container-expert-mkdocs/
+site_url: https://kontinu.github.io/container-expert-mkdocs
 nav:
     - Container Bootcamp Expert: 'index.md'
     - Semana 1️:
