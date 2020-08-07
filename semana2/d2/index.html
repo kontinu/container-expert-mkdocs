@@ -19,7 +19,7 @@
     
     
       
-        <title>Helm Workshop: Docker Online Meetups - kontinu</title>
+        <title>Día 2 - kontinu</title>
       
     
     
@@ -65,11 +65,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#helm-workshop-docker-online-meetups" class="md-skip">
-          Saltar a contenido
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -93,7 +88,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Helm Workshop: Docker Online Meetups
+              Día 2
             
           </span>
         </div>
@@ -142,14 +137,16 @@
         
           
 
-<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Pestañas" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../.." class="md-tabs__link md-tabs__link--active">
+      <a href="../.." class="md-tabs__link">
         Inicio
       </a>
     
@@ -174,7 +171,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../semana2/d1/" class="md-tabs__link">
+        <a href="../d1/" class="md-tabs__link md-tabs__link--active">
           Semana 2
         </a>
       
@@ -294,10 +291,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Semana 2
@@ -321,7 +320,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/d1/" title="Día 1" class="md-nav__link">
+    <a href="../d1/" title="Día 1" class="md-nav__link">
       Día 1
     </a>
   </li>
@@ -331,11 +330,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../semana2/d2/" title="Día 2" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" title="Día 2" class="md-nav__link md-nav__link--active">
       Día 2
     </a>
+    
   </li>
 
         
@@ -345,7 +351,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/d3/" title="Día 3" class="md-nav__link">
+    <a href="../d3/" title="Día 3" class="md-nav__link">
       Día 3
     </a>
   </li>
@@ -399,38 +405,6 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#formato-del-taller" class="md-nav__link">
-    Formato del Taller
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -440,28 +414,9 @@
                   
                 
                 
-                <h1 id="helm-workshop-docker-online-meetups">Helm Workshop: Docker Online Meetups<a class="headerlink" href="#helm-workshop-docker-online-meetups" title="Permanent link">&para;</a></h1>
-<p>El proposito es poder escribir Helm v3 Charts</p>
-<h2 id="formato-del-taller">Formato del Taller<a class="headerlink" href="#formato-del-taller" title="Permanent link">&para;</a></h2>
-<p>Este taller tiene 4 secciones importantes.</p>
-<ul>
-<li>Getting Started</li>
-<li>Charts</li>
-<li>Subcharts</li>
-<li>Templating</li>
-</ul>
-<h1 id="objetivo">Objetivo<a class="headerlink" href="#objetivo" title="Permanent link">&para;</a></h1>
-<p>Vamos a traducir el app popular de Docker <a href="https://github.com/dockersamples/example-voting-app"><code>voting-app demo</code></a> e instalarla en un Cluster de k8</p>
-<p>Comenzaremos con un chart sencillo y de ahi avanzaremos.</p>
-<p>La aplicaion de Docker tiene 5 componentes:</p>
-<ol>
-<li>A front-end for users to vote (dockersamples/examplevotingapp_vote:before)</li>
-<li>A back-end that tallies votes (dockersamples/examplevotingapp_vote:before - The voting frontend
-dockersamples/examplevotingapp_worker)</li>
-<li>An admin interface to see the results (dockersamples/examplevotingapp_result:before)</li>
-<li>Redis cache (redis:alpine)</li>
-<li>A PostgreSQL database (postgres:9.4)</li>
-</ol>
+                  <h1>Día 2</h1>
+                
+                
                 
               
               
@@ -476,6 +431,41 @@ dockersamples/examplevotingapp_worker)</li>
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Pie">
+        
+          <a href="../d1/" title="Día 1" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Día 1
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../d3/" title="Día 3" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                Día 3
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">

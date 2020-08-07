@@ -157,6 +157,30 @@
 
       
         
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana1/d1/" class="md-tabs__link">
+          Semana 1️
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana2/d1/" class="md-tabs__link">
+          Semana 2
+        </a>
+      
+    </li>
+  
+
       
         
       
@@ -205,10 +229,130 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Semana 1️
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 1️" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 1️
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../../day1/d1/" title="Dia 1" class="md-nav__link">
-      Dia 1
+    <a href="../../../semana1/d1/" title="Día 1" class="md-nav__link">
+      Día 1
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Semana 2
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 2" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d1/" title="Día 1" class="md-nav__link">
+      Día 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -318,20 +462,50 @@
                 
                 <h1 id="compose-on-kubernetes">Compose on Kubernetes<a class="headerlink" href="#compose-on-kubernetes" title="Permanent link">&para;</a></h1>
 <p><a href="https://github.com/docker/compose-on-kubernetes">https://github.com/docker/compose-on-kubernetes</a></p>
-<div class="highlight"><pre><span></span><code><span class="c1"># in docker desktop</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># in docker desktop</span>
 kubectl api-versions <span class="p">|</span> grep compose
 </code></pre></div>
+</td></tr></table>
 
 <h2 id="our-app">Our app<a class="headerlink" href="#our-app" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  docker-compose.simple.yml compose_swarm_k8
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  docker-compose.simple.yml compose_swarm_k8
 
 
 kubectl get all -l <span class="s2">&quot;com.docker.stack.namespace=compose_swarm_k8&quot;</span>
 </code></pre></div>
+</td></tr></table>
 
 <hr />
 <h2 id="from-examples">From examples<a class="headerlink" href="#from-examples" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># ---------</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># ---------</span>
 <span class="nb">echo</span> <span class="s2">&quot;&quot;&quot;</span>
 <span class="s2">version: &#39;3.3&#39;</span>
 
@@ -357,6 +531,7 @@ kubectl get all -l <span class="s2">&quot;com.docker.stack.namespace=compose_swa
 
 docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  compose/compose-k8.yaml hellokube
 </code></pre></div>
+</td></tr></table>
 
 <h3 id="other-installations">Other installations<a class="headerlink" href="#other-installations" title="Permanent link">&para;</a></h3>
 <ul>
@@ -372,8 +547,9 @@ docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  compose
 <li>only version 1,2 or 3</li>
 <li><a href="https://github.com/kubernetes/kompose/blob/master/docs/conversion.md">conversion matrix</a></li>
 </ul>
-<div class="highlight"><pre><span></span><code>kompose convert -f compose/docker-compose.kompose.yml --stdout
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>kompose convert -f compose/docker-compose.kompose.yml --stdout
 </code></pre></div>
+</td></tr></table>
                 
               
               

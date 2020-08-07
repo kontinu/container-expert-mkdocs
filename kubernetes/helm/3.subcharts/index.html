@@ -157,6 +157,30 @@
 
       
         
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana1/d1/" class="md-tabs__link">
+          Semana 1️
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana2/d1/" class="md-tabs__link">
+          Semana 2
+        </a>
+      
+    </li>
+  
+
       
         
       
@@ -205,10 +229,130 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Semana 1️
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 1️" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 1️
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../../day1/d1/" title="Dia 1" class="md-nav__link">
-      Dia 1
+    <a href="../../../semana1/d1/" title="Día 1" class="md-nav__link">
+      Día 1
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Semana 2
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 2" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d1/" title="Día 1" class="md-nav__link">
+      Día 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -281,33 +425,48 @@
                 
                 <h1 id="agreguemos-postgresql-y-redis-como-subcharts">Agreguemos PostgreSQL y Redis como subcharts<a class="headerlink" href="#agreguemos-postgresql-y-redis-como-subcharts" title="Permanent link">&para;</a></h1>
 <p>Usemos algunos charts ya existentes</p>
-<div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">$ helm search redis</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">$ helm search redis</span>
 <span class="l l-Scalar l-Scalar-Plain">NAME                                    CHART VERSION   APP VERSION     DESCRIPTION</span>
 <span class="l l-Scalar l-Scalar-Plain">stable/prometheus-redis-exporter        0.3.0           0.16.0          Prometheus exporter for Redis metrics</span>
 <span class="l l-Scalar l-Scalar-Plain">stable/redis                            3.7.6           4.0.11          Open source, advanced key-value store. It is of...</span>
 <span class="l l-Scalar l-Scalar-Plain">stable/redis-ha                         2.2.1           4.0.8-r0        Highly available Redis cluster with multiple se...</span>
 <span class="l l-Scalar l-Scalar-Plain">stable/sensu                            0.2.3           0.28            Sensu monitoring framework backed by the Redis ...</span>
 </code></pre></div>
+</td></tr></table>
 
 <details class="info" open="open"><summary></summary><p>Vea como ya existen estos charts, si usted lo creara por usted mismo le tomaria 45 minutos como minimo.</p>
 </details>
 <h1 id="subcharts-and-dependencies">Subcharts and dependencies<a class="headerlink" href="#subcharts-and-dependencies" title="Permanent link">&para;</a></h1>
 <p>.
 En Helm un subchart es un depenendencia que al agregar:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">dependencies</span><span class="p">:</span> <span class="c1"># A list of the chart requirements (optional)</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nt">dependencies</span><span class="p">:</span> <span class="c1"># A list of the chart requirements (optional)</span>
   <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">library</span>
     <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">0.0.1</span>
     <span class="nt">repository</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">URL</span>
     <span class="nt">enabled</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
 </code></pre></div>
+</td></tr></table>
 
 <p>Podemos hacer que Helm maneje las versiones adecuadas. (como package.json)</p>
 <p>Desde Helm v3 todo se coloca dentro de <code>Chart.yaml</code>, asi que agregue lo siguiente al <code>Chart.yaml</code></p>
-<div class="highlight"><pre><span></span><code><span class="nt">dependencies</span><span class="p">:</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="nt">dependencies</span><span class="p">:</span>
   <span class="p p-Indicator">-</span> <span class="nt">name</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">redis</span>        <span class="c1"># from search results above</span>
     <span class="nt">version</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">3.7.6</span>     <span class="c1"># Also from the search results above</span>
     <span class="nt">repository</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">https://kubernetes-charts.storage.googleapis.com</span>
 </code></pre></div>
+</td></tr></table>
 
 <h1 id="agregue-postgresql">Agregue PostgreSQL<a class="headerlink" href="#agregue-postgresql" title="Permanent link">&para;</a></h1>
 <p>Repita lo anterior por usted mismo.</p>

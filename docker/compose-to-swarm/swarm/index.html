@@ -157,6 +157,30 @@
 
       
         
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana1/d1/" class="md-tabs__link">
+          Semana 1️
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../../semana2/d1/" class="md-tabs__link">
+          Semana 2
+        </a>
+      
+    </li>
+  
+
       
         
       
@@ -205,10 +229,130 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Semana 1️
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 1️" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 1️
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../../day1/d1/" title="Dia 1" class="md-nav__link">
-      Dia 1
+    <a href="../../../semana1/d1/" title="Día 1" class="md-nav__link">
+      Día 1
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana1/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Semana 2
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Semana 2" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Semana 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d1/" title="Día 1" class="md-nav__link">
+      Día 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d2/" title="Día 2" class="md-nav__link">
+      Día 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../semana2/d3/" title="Día 3" class="md-nav__link">
+      Día 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -381,12 +525,21 @@
                 
                 <h1 id="swarm-steps">Swarm Steps<a class="headerlink" href="#swarm-steps" title="Permanent link">&para;</a></h1>
 <h2 id="0-git-clone">0. git clone<a class="headerlink" href="#0-git-clone" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>git clone https://github.com/jmarcos-cano/compose-to-swarm.git
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>git clone https://github.com/jmarcos-cano/compose-to-swarm.git
 <span class="nb">cd</span> compose-to-swarm
 </code></pre></div>
+</td></tr></table>
 
 <h2 id="1-enable-visualizer-on-port-8080">1. Enable Visualizer on port 8080<a class="headerlink" href="#1-enable-visualizer-on-port-8080" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker service create <span class="se">\</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker service create <span class="se">\</span>
   --name<span class="o">=</span>viz <span class="se">\</span>
   --publish<span class="o">=</span><span class="m">8080</span>:8080/tcp <span class="se">\</span>
   --constraint<span class="o">=</span>node.role<span class="o">==</span>manager <span class="se">\</span>
@@ -395,39 +548,57 @@
 
 <span class="c1"># wait until it says &quot;service converged&quot;</span>
 </code></pre></div>
+</td></tr></table>
 
 <details class="info"><summary>⚠️</summary><p>go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
 </details>
 <hr />
 <h2 id="2-simple-service-create">2. Simple service create<a class="headerlink" href="#2-simple-service-create" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="c1"># Create a swarm service from a Nginx docker image</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Create a swarm service from a Nginx docker image</span>
 docker service create --name nginx-ws -p <span class="m">80</span>:80 nginx
 
 <span class="c1"># List the current services</span>
 docker service ls
 </code></pre></div>
+</td></tr></table>
 
 <details class="info"><summary>⚠️</summary><p>Go to your visualizer (click in your upper link port 8080) and see how the services are spread.
 Click also on Port 80 (Nginx) - it should say "Welcome to Nginx"</p>
 </details>
 <p><strong>Scale the service</strong>
-<div class="highlight"><pre><span></span><code>docker service update --replicas <span class="m">3</span> nginx-ws
-</code></pre></div></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker service update --replicas <span class="m">3</span> nginx-ws
+</code></pre></div>
+</td></tr></table></p>
 <blockquote>
 <p>Go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
 </blockquote>
 <p><strong>Checking service logs</strong>
-<div class="highlight"><pre><span></span><code>docker service logs nginx-ws
-</code></pre></div></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker service logs nginx-ws
+</code></pre></div>
+</td></tr></table></p>
 <p><strong>Delete the service</strong>
-<div class="highlight"><pre><span></span><code>docker service rm nginx-ws
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker service rm nginx-ws
 
 <span class="c1"># check for running services</span>
 docker service ls
-</code></pre></div></p>
+</code></pre></div>
+</td></tr></table></p>
 <hr />
 <h2 id="3-simple-stack-deploy">3. Simple Stack deploy<a class="headerlink" href="#3-simple-stack-deploy" title="Permanent link">&para;</a></h2>
-<p><div class="highlight"><pre><span></span><code><span class="c1"># inspect the stack file and try to understand it</span>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># inspect the stack file and try to understand it</span>
 cat docker-compose.simple.yml
 <span class="c1"># deploy it</span>
 docker stack deploy -c docker-compose.simple.yml --resolve-image<span class="o">=</span>always --with-registry-auth compose_swarm
@@ -435,19 +606,30 @@ docker stack deploy -c docker-compose.simple.yml --resolve-image<span class="o">
 <span class="c1"># list current services</span>
 docker service ls
 </code></pre></div>
+</td></tr></table>
 <br></p>
 <details class="info"><summary>⚠️</summary><p>Go to your app (click in your upper link port 500) and see how the app looks like. !
 Go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
 </details>
 <p>Show current status
-<div class="highlight"><pre><span></span><code>docker stack ps compose_swarm
-</code></pre></div></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker stack ps compose_swarm
+</code></pre></div>
+</td></tr></table></p>
 <hr />
 <h2 id="4-environment-variables-injection">4. Environment Variables injection<a class="headerlink" href="#4-environment-variables-injection" title="Permanent link">&para;</a></h2>
 <blockquote>
 <p>💡 This will give you a small intro to how you can manage configuration per environment (dev,qa,stage,production)</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code><span class="c1"># inspect the stack file and try to find the directive &quot;FOO=${FOO:-BAR}&quot;</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># inspect the stack file and try to find the directive &quot;FOO=${FOO:-BAR}&quot;</span>
 cat docker-compose.simple.yml
 
 <span class="c1"># inject the new value</span>
@@ -458,10 +640,13 @@ docker stack deploy -c docker-compose.simple.yml --resolve-image<span class="o">
 
 docker stack services compose_swarm
 </code></pre></div>
+</td></tr></table>
 
-<div class="highlight"><pre><span></span><code><span class="c1"># PROD</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># PROD</span>
 docker stack deploy -c &lt;<span class="o">(</span>docker-compose --env-file .configs/production.env -f docker-compose.simple.yml config <span class="o">)</span> --resolve-image<span class="o">=</span>always --with-registry-auth compose_swarm_prod
 </code></pre></div>
+</td></tr></table>
 
 <p><br></p>
 <details class="info"><summary>🥇</summary><p>Dare you to put your own Text there, see how sometimes the application becomes unaccessible?</p>
@@ -474,8 +659,9 @@ docker stack deploy -c &lt;<span class="o">(</span>docker-compose --env-file .co
 <li>Want High Availability?</li>
 </ul>
 <p>Swarm got you covered</p>
-<p><div class="highlight"><pre><span></span><code>docker service scale <span class="nv">compose_swarm_web</span><span class="o">=</span><span class="m">4</span>
+<p><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker service scale <span class="nv">compose_swarm_web</span><span class="o">=</span><span class="m">4</span>
 </code></pre></div>
+</td></tr></table>
 <br></p>
 <details class="info"><summary>⚠️</summary><p>Go to your app (click in your upper link port 500) and see how which task/container responds
 Go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
@@ -483,12 +669,17 @@ Go to your visualizer (click in your upper link port 8080) and see how the servi
 <hr />
 <h2 id="6-declarative-deployment-replicas">6. Declarative Deployment Replicas<a class="headerlink" href="#6-declarative-deployment-replicas" title="Permanent link">&para;</a></h2>
 <p>Instead of scaling your service everytime, why don't we declare it?</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Inspect the .replicas file and find &quot;deploy: &quot; section</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Inspect the .replicas file and find &quot;deploy: &quot; section</span>
 cat compose/docker-compose.replicas.yml
 
 <span class="c1"># Deploy new update for the stack</span>
 <span class="nv">DEPLOYMENT_REPLICAS</span><span class="o">=</span><span class="m">7</span> docker stack deploy -c compose/docker-compose.replicas.yml --resolve-image<span class="o">=</span>always compose_swarm
 </code></pre></div>
+</td></tr></table>
 
 <details class="info"><summary>⚠️</summary><p>Go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
 </details>
@@ -499,7 +690,15 @@ cat compose/docker-compose.replicas.yml
 <blockquote>
 <p>💡 v1 has been running for 2 weeks now and you are ready to ship your new and hottest feature on v2, with rolling updates you can easily ship v2 let it coexist with v1 until v1 gets fully drain (removed) and v2 gets out.</p>
 </blockquote>
-<div class="highlight"><pre><span></span><code><span class="c1"># inspect .rolling file and find the &quot;update_config:&quot; section, try to understand it</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># inspect .rolling file and find the &quot;update_config:&quot; section, try to understand it</span>
 less compose/docker-compose.rolling.yml
 
 
@@ -509,12 +708,15 @@ docker stack deploy -c &lt;<span class="o">(</span>docker-compose -f compose/doc
 <span class="c1"># update image</span>
 docker stack deploy -c &lt;<span class="o">(</span><span class="nv">IMAGE_NAME</span><span class="o">=</span>mcano/compose-to-swarm:v2 docker-compose -f compose/docker-compose.rolling.yml config<span class="o">)</span> --resolve-image<span class="o">=</span>always compose_swarm
 </code></pre></div>
+</td></tr></table>
 
 <h4 id="lets-force-update-to-see-the-rolling-updates">Lets force update to see the rolling updates<a class="headerlink" href="#lets-force-update-to-see-the-rolling-updates" title="Permanent link">&para;</a></h4>
 <p>Do this how many times you need in order to see it working.</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># graceful full restart of your app</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># graceful full restart of your app</span>
 docker service update --force compose_swarm_web
 </code></pre></div>
+</td></tr></table>
 
 <blockquote>
 <p>Go to your visualizer (click in your upper link port 8080) and see how the services are spread.</p>
@@ -522,16 +724,31 @@ docker service update --force compose_swarm_web
 <hr />
 <h2 id="8-host-limit-resource">8. Host limit resource<a class="headerlink" href="#8-host-limit-resource" title="Permanent link">&para;</a></h2>
 <p>One can prevent memory starvation or CPU consumption of your app by adding "resources:" section</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># inspect .resources file and find the &quot;resources:&quot; section, try to understand it</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># inspect .resources file and find the &quot;resources:&quot; section, try to understand it</span>
 less compose/docker-compose.resources.yml
 
 <span class="c1"># Deploy/update this new configuration for your stack</span>
 docker stack deploy -c compose/docker-compose.resources.yml --resolve-image<span class="o">=</span>always compose_swarm
 </code></pre></div>
+</td></tr></table>
 
 <h2 id="9-health-check-and-self-healing">9. Health Check and Self healing<a class="headerlink" href="#9-health-check-and-self-healing" title="Permanent link">&para;</a></h2>
 <p>Auto restarts and health-check can also be possible by adding "healthcheck: "</p>
-<div class="highlight"><pre><span></span><code><span class="c1"># Run docker ps first to see there&#39;s no (healthy)</span>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Run docker ps first to see there&#39;s no (healthy)</span>
 docker ps
 
 <span class="c1"># inspect .health file and find the &quot;healthcheck:&quot; section, try to understand it</span>
@@ -543,18 +760,23 @@ docker stack deploy -c compose/docker-compose.health.yml --resolve-image<span cl
 <span class="c1"># after a few seconds run</span>
 docker ps
 </code></pre></div>
+</td></tr></table>
 
 <p>Do a: <code>docker service ps compose_swarm_web</code>, Identify the placement of a container (identify on which node is running).</p>
 <p>Jump into that node and run <code>docker ps</code> find the container and its ID (first column), kill it and see how it self heals
-<div class="highlight"><pre><span></span><code>docker <span class="nb">kill</span> &lt;container ID&gt;
-</code></pre></div></p>
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker <span class="nb">kill</span> &lt;container ID&gt;
+</code></pre></div>
+</td></tr></table></p>
 <details class="info"><summary>info</summary><p>Go to your visualizer (click in your upper link port 8080) and see how the services are spread and self healed.</p>
 </details>
 <h2 id="full-production-lb">Full Production + <a href="http://138-197-49-123.nip.io/make">LB</a><a class="headerlink" href="#full-production-lb" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code>docker stack deploy -c &lt;(docker-compose --env-file .configs/production.env -f docker-compose.yml config ) --resolve-image=always --with-registry-auth compose_swarm_prod
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker stack deploy -c &lt;(docker-compose --env-file .configs/production.env -f docker-compose.yml config ) --resolve-image=always --with-registry-auth compose_swarm_prod
 
 open http://138-197-49-123.nip.io/
 </code></pre></div>
+</td></tr></table>
                 
               
               
