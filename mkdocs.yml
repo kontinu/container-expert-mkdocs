@@ -101,7 +101,7 @@ plugins:
       #theme_handler_path: theme_handler.py
 
 
-  - mkpdfs
+  #- mkpdfs
   # - encryptcontent:
   #       global_password: 'kontinu'
 
