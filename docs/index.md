@@ -1,6 +1,6 @@
 <img src="assets/images/cyan-logo.png" class="center" alt="kontinu" style="width:300px;">
 
-## Bienvenido 😃
+## Bienvenidos 😃
 
 ??? success
     Gracias por confiar en [kontinu](https://www.kontinu.io) para tu crecimiento.
