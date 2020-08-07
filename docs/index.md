@@ -1,11 +1,11 @@
-<img src="assets/images/cyan-logo.png" class="center" alt="kontinu" style="width:300px;">
+<img src="/assets/images/cyan-logo.png" class="center" alt="kontinu" style="width:300px;">
 
 ## Bienvenido 😃
 
 ??? success
     Gracias por confiar en [kontinu](https://www.kontinu.io) para tu crecimiento.
 
-<img src="assets/images/container-bootcamp.png" class="center" alt="Bootcamp" style="width:auto;">
+<img src="/assets/images/container-bootcamp.png" class="center" alt="Bootcamp" style="width:auto;">
 
 ---
 
