@@ -3,7 +3,7 @@ site_name: kontinu
 nav:
     - Inicio: 'index.md'
     - Semana 1️:
-        Topicos: 'semana1/topics.md'
+        Tópicos: 'semana1/topics.md'
         Día 1:
           - 'semana1/d1.md'
         Día 2:
@@ -11,13 +11,13 @@ nav:
         Día 3:
           - 'semana1/d3.md'
     - Semana 2:
-        Topicos: 'semana2/topics.md'
-        Día 1:
-          - 'semana2/d1.md'
-        Día 2:
-          - 'semana2/d2.md'
-        Día 3:
-          - 'semana2/d3.md'
+        Tópicos: 'semana2/topics.md'
+        Día 4:
+          - 'semana2/d4.md'
+        Día 5:
+          - 'semana2/d5.md'
+        Día 6:
+          - 'semana2/d6.md'
     - Acerca de Mi: 'about.md'
     - Contacto: 'contact.md'
     - Extras:
@@ -62,7 +62,7 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: "grey"
+    primary: "teal"
     accent: 'purple'
   logo: 'assets/images/logo.png'
   font:
