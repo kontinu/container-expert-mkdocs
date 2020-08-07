@@ -2,7 +2,7 @@ site_name: kontinu
 
 nav:
     - Inicio: 'index.md'
-    
+    - Dia 1: 'day1/d1.md'
     # - Docker:
     #     - docker/index.md
     #     - "Compose to Swarm":
@@ -27,6 +27,7 @@ nav:
 
     - Acerca de Mi: 'about.md'
     - Contacto: 'contact.md'
+    - Agenda: 'agenda.md'
 
 
 
