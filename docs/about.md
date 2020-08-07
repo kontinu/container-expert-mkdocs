@@ -2,7 +2,7 @@
 
 <img src="assets/images/me.png" class="center" alt="About me" style="width:300px;">
 
-## Personal Info
+## Información Personal
 Hola mi nombre es **Marcos Cano**.
 
 Vivo actualmente en ==Ciudad de  Guatemala 🇬🇹=={>>Central America<<}

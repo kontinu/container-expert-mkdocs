@@ -3,10 +3,10 @@ site_url: https://kontinu.github.io/container-expert-mkdocs/
 
 
 nav:
-    - Index: "index.html"
-    - Hello: "aaf4c61ddcc5e8a2dabede0f3b482cd9aea9434d/hello.md"
-    - Container Bootcamp Expert: 'welcome.md'
-    - Acerca de Mi: 'about.md'
+    - Container Bootcamp Expert: 'index.md'
+    - Acerca de:
+      - Kontinu: 'kontinu.md'
+      - Mi: 'about.md'
     - Contacto: 'contact.md'
     - Semana 1️:
         Tópicos: 'semana1/topics.md'
