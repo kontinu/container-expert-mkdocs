@@ -22,36 +22,36 @@ A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este boo
 === "Semana 1"
     ### [**Semana 1**](semana1/topics.md)
 
-    [**Día1**](semana1/d1.md)
+    [**Día 1**](semana1/d1.md)
 
     - Docker basics
     - Integracion de Docker con nuestra app
     - Ambientes de desarrollo local
 
-    [**Día2**](semana1/d2.md)
+    [**Día 2**](semana1/d2.md)
 
     - CI/CD con Docker
     - Deploy en ambientes Single Engine
     - Introduccion a Cloud Native Apps
     - Integración de Docker con Cloud Native Apps
 
-    [**Día3**](semana1/d3.md)
+    [**Día 3**](semana1/d3.md)
 
     - Docker Swarm
-    - Creacion de un ambiente produccion ready con Swarm
+    - Creación de un ambiente production ready con Swarm
     - Deployment Lifecycle de nuestra app
 
 === "Semana 2"
     ### [**Semana 2**](semana2/topics.md)
 
-    [**Día4**](semana2/d4.md)
+    [**Día 4**](semana2/d4.md)
 
     - Intro a kubernetes
     - Objetos de Kubernetes
     - Traduccion de nuestra app en Docker a Kubernetes
     - Deploy hacia kubernetes.
 
-    [**Día5**](semana2/d5.md)
+    [**Día 5**](semana2/d5.md)
 
     - Kubernetes Extras y add-ons
     - Storage Tier
@@ -59,7 +59,7 @@ A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este boo
     - Más objetos de kubernetes.
 
 
-    [**Día6**](semana2/d6.md)
+    [**Día 6**](semana2/d6.md)
 
     - Kubernetes app lifecycle via Helm
     - Kubernetes Operators.
