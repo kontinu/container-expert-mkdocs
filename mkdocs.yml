@@ -96,6 +96,9 @@ extra:
 plugins:
   - search:
       lang: es
+  - pdf-export:
+      verbose: true
+      enabled_if_env: ENABLE_PDF_EXPORT
   # - encryptcontent:
   #       global_password: 'kontinu'
 

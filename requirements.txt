@@ -3,5 +3,9 @@ material
 mkdocs-blog-plugin
 mkdocs-macros-plugin
 mkdocs-encryptcontent-plugin
-mkpdfs-mkdocs
 WeasyPrint
+
+mkdocs-pdf-export-plugin
+
+mkpdfs-mkdocs
+
