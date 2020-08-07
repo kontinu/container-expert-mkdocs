@@ -98,6 +98,10 @@ plugins:
       lang: es
   # - encryptcontent:
   #       global_password: 'kontinu'
+  - mkpdfs:
+      - company: Kontinu.
+      - author: Kontinu
+      - toc_title: "Contenidos"
 
 markdown_extensions:
   - attr_list
