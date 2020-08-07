@@ -5,7 +5,7 @@
 
 ---
 
-Welcome to www.containertips.dev I post content about:
+Welcome to www.kontinu I post content about:
 
 - [Docker 🐳](/docker/)
 - [Kubernetes ☸️](/kubernetes/)
