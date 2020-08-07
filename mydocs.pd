@@ -1,0 +1,201 @@
+# Inicio {: .page-title}
+
+<img src="assets/images/cyan-logo.png" class="center" alt="kontinu" style="width:300px;">
+
+### Bienvenido 😃
+
+??? success
+    Gracias por confiar en [kontinu](https://www.kontinu.io) para tu crecimiento.
+
+<img src="assets/images/container-bootcamp.png" class="center" alt="Bootcamp" style="width:auto;">
+
+---
+
+Si estas aqui con nosotros es porque hay un deseo en ti de crecer, superarte y ser mejor profesional.
+
+A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este bootcamp 🏋🏻‍♀️ en cual esperamos sea de provecho y beneficio para tu carrera profesional.
+
+
+
+
+### Agenda Semanal 🗓
+
+
+=== "Semana 1"
+    ###**Semana 1**
+
+   **Día 1**
+
+    - Docker basics
+    - Integracion de Docker con nuestra app
+    - Ambientes de desarrollo local
+
+   **Día 2**
+
+    - CI/CD con Docker
+    - Deploy en ambientes Single Engine
+    - Introduccion a Cloud Native Apps
+    - Integración de Docker con Cloud Native Apps
+
+   **Día 3**
+
+    - Docker Swarm
+    - Creación de un ambiente production ready con Swarm
+    - Deployment Lifecycle de nuestra app
+
+=== "Semana 2"
+    ###**Semana 2**
+
+   **Día 4**
+
+    - Intro a kubernetes
+    - Objetos de Kubernetes
+    - Traduccion de nuestra app en Docker a Kubernetes
+    - Deploy hacia kubernetes.
+
+   **Día 5**
+
+    - Kubernetes Extras y add-ons
+    - Storage Tier
+    - Manejo de Stateful apps en Kubernetes.
+    - Más objetos de kubernetes.
+
+
+   **Día 6**
+
+    - Kubernetes app lifecycle via Helm
+    - Kubernetes Operators.
+
+
+
+??? info "Agenda 🗓"
+    Si desea ver la agenda compartida anteriormentpágina
+---
+
+### Cursos 📚
+
+Estare lanzando próximamente cursos en Udemy, debido a que varias personas nos indicaron que "Les gustaría recibir estos cursos a su propio ritmo"
+
+# Acerca de Mi {: .page-title}
+
+## Acerca de Mi - Marcos Cano
+
+<img src="assets/images/me.png" class="center" alt="About me" style="width:300px;">
+
+### Personal Info
+Hola mi nombre es **Marcos Cano**.
+
+Vivo actualmente en ==Ciudad de  Guatemala 🇬🇹=={>>Central America<<}
+> Aqui se habla español
+
+
+
+
+### Tengo el privilegio de ser [Docker Community Leader en Guatemala](https://www.meetup.com/Docker-Guatemala).
+
+Desde 2017 tengo el honor de servir a la comunidad siendo Community Leader, no me hace mas especial pero si con la responsabilidad de compartir y facilitar el conocimiento a mas personas
+
+En el año 2020 durante el DockerCon tuve el honor de ser premiado con "Community Leader Award"; por la pasión que siempre he tenido de esforzarme y compartir.
+
+<img src="assets/images/com_leader.png" class="center" alt="Docker Guatemala Meetup" style="width:500px;">
+
+
+
+#### A continuación ve nuestro meetup
+<img src="assets/images/dockergt.png" class="center" alt="Docker Guatemala Meetup" style="width:500px;">
+
+???+ danger "DCA"
+    Tambien soy Docker Certified Associate 🤓
+
+??? info " 💵 Nos paga Docker?"
+    Nop, pero lo hago con todo el gusto.
+
+### Qué son las cosa que amo ❤️ ?
+
+<img src="assets/images/teachdocker.png" class="center" alt="Docker" style="width:500px;">
+
+
+- Enseñar con pasiòn y compartir.
+- Docker & Kubernetes
+- El hacer todo con Docker y containers (cualquier proyecto lo que sea).
+- Empoderar a otros a ser mejores.
+- Tomar café ☕️ y todo lo que tenga que ver con café
+- Música 🗒
+
+
+### Algo de mi carrera profesional
+
+- Senior Devops Engineer
+- Devops Consultant and trainer.
+- Docker Community Leader.
+- He ayudado en varias ocasciones a modernizar aplicaciones y migrar monolitos a arquitectura de microservicios
+- Me especializo en Docker:
+    - CI/CD
+    - Docker
+    - Cloud Native
+    - Infrastructura como código
+- Tuve la increíble oportunidad de realizar varias publicaciones para la [IEEE](https://www.ieee.org/) y algunos compañeros de Francia y Guatemala, siempre usando Docker para realizar un emulador de redes mobiles (MANET) usando containers y mi "propio" orquestador de containers "Dockemu" (Docker + Emulator), este es mi [perfil de la IEEE](https://ieeexplore.ieee.org/author/37085420823)
+
+
+Puedes ver mis redes sociales y seguirme en [linketree](https://linktr.ee/marcoscano)
+
+
+
+# Contacto {: .page-title}
+
+<style>
+.md-typeset h1{
+    color: #01E5C1;
+}
+</style>
+
+## Contactanos si tienes alguna duda, comentario o sugerencia
+
+
+<form class="center" action="https://formspree.io/mdowbrzo" method="POST" >
+  <label>
+    <h3> Deja tu Correo: </h3>
+    <input  style="bg-color: red;" type="text" name="_replyto">
+  </label>
+  <br>
+  <label>
+    <h3>Tu mensaje: </h3>
+    <textarea rows="4" cols="40" name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+  <br><br>
+  <button type="submit">Enviar</button>
+</form>
+
+
+# Extras {: .page-title}
+
+
+## Index {: .page-title}
+
+## Extras
+
+- Si desea ver laAgenda Semanal
+
+
+- Si desea llenar laEncuesta/Feedback
+
+## Agenda {: .page-title}
+
+## Agenda Semanal
+
+![1](docs/assets/images/calendar/1.png)
+---
+![2](docs/assets/images/calendar/2.png)
+
+## Feedback {: .page-title}
+
+## Feedback
+
+En cualquier momento sientase en la libertad de llenar este formulario
+
+???+ info ""
+    Le recomendamos que lo llene al finalizar el curso ya que es hasta el final que tendrá una experiencia completa; ademas solo se permite llenarla una sola vez
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePDLsCeMiMDB-_uBRhNi64yzkka06vQI4WewuVPeGESjAr6Q/viewform?embedded=true" width="640" height="574" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>

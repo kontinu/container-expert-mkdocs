@@ -1,5 +1,8 @@
+mkdocs==1.1
+
 pymdown-extensions
 material
+mkdocs-material>=5.0.0
 mkdocs-blog-plugin
 mkdocs-macros-plugin
 mkdocs-encryptcontent-plugin
@@ -8,4 +11,3 @@ WeasyPrint
 mkdocs-pdf-export-plugin
 
 mkpdfs-mkdocs
-
