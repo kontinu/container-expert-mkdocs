@@ -4,7 +4,7 @@
 }
 </style>
 
-# Contactanos si tienes alguna duda, comentario o sugerencia
+<h1> Contactanos si tienes alguna duda, comentario o sugerencia</h1>
 
 
 <form class="center" action="https://formspree.io/mdowbrzo" method="POST" >

@@ -6,8 +6,8 @@ mkdocs-material>=5.0.0
 mkdocs-blog-plugin
 mkdocs-macros-plugin
 mkdocs-encryptcontent-plugin
-WeasyPrint
+# WeasyPrint
 
-mkdocs-pdf-export-plugin
+# mkdocs-pdf-export-plugin
 
-mkpdfs-mkdocs
+# mkpdfs-mkdocs
