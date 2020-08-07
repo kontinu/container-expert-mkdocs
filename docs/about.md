@@ -1,6 +1,6 @@
 # Acerca de Mi - Marcos Cano
 
-<img src="/assets/images/me.png" class="center" alt="About me" style="width:300px;">
+<img src="assets/images/me.png" class="center" alt="About me" style="width:300px;">
 
 ## Personal Info
 Hola mi nombre es **Marcos Cano**.
@@ -17,12 +17,12 @@ Desde 2017 tengo el honor de servir a la comunidad siendo Community Leader, no m
 
 En el año 2020 durante el DockerCon tuve el honor de ser premiado con "Community Leader Award"; por la pasión que siempre he tenido de esforzarme y compartir.
 
-<img src="/assets/images/com_leader.png" class="center" alt="DockerCon CL Award" style="width:500px;">
+<img src="assets/images/com_leader.png" class="center" alt="DockerCon CL Award" style="width:500px;">
 
 
 
 ### A continuación ve nuestro meetup
-<img src="/assets/images/dockergt.png" class="center" alt="Docker Guatemala Meetup" style="width:500px;">
+<img src="assets/images/dockergt.png" class="center" alt="Docker Guatemala Meetup" style="width:500px;">
 
 ???+ danger "DCA"
     Tambien soy Docker Certified Associate 🤓
@@ -32,7 +32,7 @@ En el año 2020 durante el DockerCon tuve el honor de ser premiado con "Communit
 
 ## Qué son las cosa que amo ❤️ ?
 
-<img src="/assets/images/teachdocker.png" class="center" alt="Docker" style="width:500px;">
+<img src="assets/images/teachdocker.png" class="center" alt="Docker" style="width:500px;">
 
 
 - Enseñar con pasiòn y compartir.
