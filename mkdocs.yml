@@ -3,14 +3,21 @@ site_name: kontinu
 nav:
     - Inicio: 'index.md'
     - Semana 1️:
+        Topicos: 'semana1/topics.md'
         Día 1:
           - 'semana1/d1.md'
-        Día 2: 'semana1/d2.md'
-        Día 3: 'semana1/d3.md'
+        Día 2:
+          - 'semana1/d2.md'
+        Día 3:
+          - 'semana1/d3.md'
     - Semana 2:
-        Día 1: 'semana2/d1.md'
-        Día 2: 'semana2/d2.md'
-        Día 3: 'semana2/d3.md'
+        Topicos: 'semana2/topics.md'
+        Día 1:
+          - 'semana2/d1.md'
+        Día 2:
+          - 'semana2/d2.md'
+        Día 3:
+          - 'semana2/d3.md'
     - Acerca de Mi: 'about.md'
     - Contacto: 'contact.md'
     - Extras:
@@ -133,5 +140,6 @@ markdown_extensions:
 extra_css:
     - assets/css/extra.css
     - assets/css/contact_form.css
+    - assets/css/progressbar.css
 
 use_directory_urls: true
