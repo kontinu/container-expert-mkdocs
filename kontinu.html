@@ -11,23 +11,23 @@
         <meta name="description" content="All about Docker, K8 and Containers in general">
       
       
-        <link rel="canonical" href="https://kontinu.github.io/container-expert-mkdocs/docker/compose-to-swarm/compose-k8.html">
+        <link rel="canonical" href="https://kontinu.github.io/container-expert-mkdocs/kontinu.html">
       
       
         <meta name="author" content="Marcos Cano">
       
-      <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+      <link rel="shortcut icon" href="assets/images/favicon.ico">
       <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.3">
     
     
       
-        <title>Compose on Kubernetes - kontinu</title>
+        <title>Kontinu - kontinu</title>
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.947af8d5.min.css">
+      <link rel="stylesheet" href="assets/stylesheets/main.947af8d5.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.7f672a1f.min.css">
+        <link rel="stylesheet" href="assets/stylesheets/palette.7f672a1f.min.css">
       
       
         
@@ -45,11 +45,11 @@
     
     
     
-      <link rel="stylesheet" href="../../assets/css/extra.css">
+      <link rel="stylesheet" href="assets/css/extra.css">
     
-      <link rel="stylesheet" href="../../assets/css/contact_form.css">
+      <link rel="stylesheet" href="assets/css/contact_form.css">
     
-      <link rel="stylesheet" href="../../assets/css/progressbar.css">
+      <link rel="stylesheet" href="assets/css/progressbar.css">
     
     
       
@@ -69,11 +69,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#compose-on-kubernetes" class="md-skip">
-          Saltar a contenido
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -83,7 +78,7 @@
   <nav class="md-header-nav md-grid" aria-label="Cabecera">
     <a href="https://kontinu.github.io/container-expert-mkdocs/" title="kontinu" class="md-header-nav__button md-logo" aria-label="kontinu">
       
-  <img src="../../assets/images/logo.png" alt="logo">
+  <img src="assets/images/logo.png" alt="logo">
 
     </a>
     <label class="md-header-nav__button md-icon" for="__drawer">
@@ -97,7 +92,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              Compose on Kubernetes
+              Kontinu
             
           </span>
         </div>
@@ -146,14 +141,16 @@
         
           
 
-<nav class="md-tabs" aria-label="Pestañas" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Pestañas" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="../../index.html" class="md-tabs__link md-tabs__link--active">
+      <a href="index.html" class="md-tabs__link">
         Container Bootcamp Expert
       </a>
     
@@ -165,7 +162,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../kontinu.html" class="md-tabs__link">
+        <a href="kontinu.html" class="md-tabs__link md-tabs__link--active">
           Acerca de
         </a>
       
@@ -180,7 +177,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../semana1/topics.html" class="md-tabs__link">
+        <a href="semana1/topics.html" class="md-tabs__link">
           Semana 1️
         </a>
       
@@ -193,7 +190,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../semana2/topics.html" class="md-tabs__link">
+        <a href="semana2/topics.html" class="md-tabs__link">
           Semana 2
         </a>
       
@@ -206,7 +203,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../extras/extras.html" class="md-tabs__link">
+        <a href="extras/extras.html" class="md-tabs__link">
           Extras
         </a>
       
@@ -230,7 +227,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="https://kontinu.github.io/container-expert-mkdocs/" title="kontinu" class="md-nav__button md-logo" aria-label="kontinu">
       
-  <img src="../../assets/images/logo.png" alt="logo">
+  <img src="assets/images/logo.png" alt="logo">
 
     </a>
     kontinu
@@ -244,7 +241,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../index.html" title="Container Bootcamp Expert" class="md-nav__link">
+    <a href="index.html" title="Container Bootcamp Expert" class="md-nav__link">
       Container Bootcamp Expert
     </a>
   </li>
@@ -254,10 +251,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
     
     <label class="md-nav__link" for="nav-2">
       Acerca de
@@ -279,11 +278,18 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../kontinu.html" title="Kontinu" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="kontinu.html" title="Kontinu" class="md-nav__link md-nav__link--active">
       Kontinu
     </a>
+    
   </li>
 
         
@@ -293,7 +299,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../about.html" title="Mi" class="md-nav__link">
+    <a href="about.html" title="Mi" class="md-nav__link">
       Mi
     </a>
   </li>
@@ -310,7 +316,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../contact.html" title="Contacto" class="md-nav__link">
+    <a href="contact.html" title="Contacto" class="md-nav__link">
       Contacto
     </a>
   </li>
@@ -347,7 +353,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana1/topics.html" title="Tópicos" class="md-nav__link">
+    <a href="semana1/topics.html" title="Tópicos" class="md-nav__link">
       Tópicos
     </a>
   </li>
@@ -384,7 +390,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana1/d1.html" title="Contenido Día 1" class="md-nav__link">
+    <a href="semana1/d1.html" title="Contenido Día 1" class="md-nav__link">
       Contenido Día 1
     </a>
   </li>
@@ -426,7 +432,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana1/d2.html" title="Contenido Día 2" class="md-nav__link">
+    <a href="semana1/d2.html" title="Contenido Día 2" class="md-nav__link">
       Contenido Día 2
     </a>
   </li>
@@ -468,7 +474,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana1/d3.html" title="Contenido Día 3" class="md-nav__link">
+    <a href="semana1/d3.html" title="Contenido Día 3" class="md-nav__link">
       Contenido Día 3
     </a>
   </li>
@@ -515,7 +521,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/topics.html" title="Tópicos" class="md-nav__link">
+    <a href="semana2/topics.html" title="Tópicos" class="md-nav__link">
       Tópicos
     </a>
   </li>
@@ -552,7 +558,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/d4.html" title="D4" class="md-nav__link">
+    <a href="semana2/d4.html" title="D4" class="md-nav__link">
       D4
     </a>
   </li>
@@ -594,7 +600,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/d5.html" title="D5" class="md-nav__link">
+    <a href="semana2/d5.html" title="D5" class="md-nav__link">
       D5
     </a>
   </li>
@@ -636,7 +642,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../semana2/d6.html" title="D6" class="md-nav__link">
+    <a href="semana2/d6.html" title="D6" class="md-nav__link">
       D6
     </a>
   </li>
@@ -683,7 +689,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../extras/extras.html" title="Index" class="md-nav__link">
+    <a href="extras/extras.html" title="Index" class="md-nav__link">
       Index
     </a>
   </li>
@@ -695,7 +701,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../extras/agenda.html" title="Agenda" class="md-nav__link">
+    <a href="extras/agenda.html" title="Agenda" class="md-nav__link">
       Agenda
     </a>
   </li>
@@ -707,7 +713,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../extras/feedback.html" title="Feedback" class="md-nav__link">
+    <a href="extras/feedback.html" title="Feedback" class="md-nav__link">
       Feedback
     </a>
   </li>
@@ -725,58 +731,6 @@
               </div>
             
             
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-      </span>
-      Tabla de contenidos
-    </label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#our-app" class="md-nav__link">
-    Our app
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#from-examples" class="md-nav__link">
-    From examples
-  </a>
-  
-    <nav class="md-nav" aria-label="From examples">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#other-installations" class="md-nav__link">
-    Other installations
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -786,96 +740,28 @@
                   
                 
                 
-                <h1 id="compose-on-kubernetes">Compose on Kubernetes<a class="headerlink" href="#compose-on-kubernetes" title="Permanent link">&para;</a></h1>
-<p><a href="https://github.com/docker/compose-on-kubernetes">https://github.com/docker/compose-on-kubernetes</a></p>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># in docker desktop</span>
-kubectl api-versions <span class="p">|</span> grep compose
-</code></pre></div>
-</td></tr></table>
-
-<h2 id="our-app">Our app<a class="headerlink" href="#our-app" title="Permanent link">&para;</a></h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
-2
-3
-4</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  docker-compose.simple.yml compose_swarm_k8
-
-
-kubectl get all -l <span class="s2">&quot;com.docker.stack.namespace=compose_swarm_k8&quot;</span>
-</code></pre></div>
-</td></tr></table>
-
-<hr />
-<h2 id="from-examples">From examples<a class="headerlink" href="#from-examples" title="Permanent link">&para;</a></h2>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
- 2
- 3
- 4
- 5
- 6
- 7
- 8
- 9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># ---------</span>
-<span class="nb">echo</span> <span class="s2">&quot;&quot;&quot;</span>
-<span class="s2">version: &#39;3.3&#39;</span>
-
-<span class="s2">services:</span>
-
-<span class="s2">  db:</span>
-<span class="s2">    build: db</span>
-<span class="s2">    image: dockersamples/k8s-wordsmith-db</span>
-
-<span class="s2">  words:</span>
-<span class="s2">    build: words</span>
-<span class="s2">    image: dockersamples/k8s-wordsmith-api</span>
-<span class="s2">    deploy:</span>
-<span class="s2">      replicas: 5</span>
-
-<span class="s2">  web:</span>
-<span class="s2">    build: web</span>
-<span class="s2">    image: dockersamples/k8s-wordsmith-web</span>
-<span class="s2">    ports:</span>
-<span class="s2">     - &quot;</span><span class="m">33000</span>:80<span class="s2">&quot;</span>
-
-<span class="s2">&quot;&quot;&quot;</span> &gt; compose/compose-k8.yaml
-
-docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  compose/compose-k8.yaml hellokube
-</code></pre></div>
-</td></tr></table>
-
-<h3 id="other-installations">Other installations<a class="headerlink" href="#other-installations" title="Permanent link">&para;</a></h3>
+                  <h1>Kontinu</h1>
+                
+                <p><img src="assets/images/cyan-logo.png" class="center" alt="kontinu" style="width:400px;"></p>
+<p>Kontinu nació de la necesidad de lograr que empresas e individuos alcancen un nivel superior en:</p>
 <ul>
-<li>AKS</li>
-<li>EKS</li>
-<li>GKE</li>
-<li>kind</li>
-<li>minikube</li>
-<li>microk8s</li>
+<li>Devops</li>
+<li>Docker</li>
+<li>Kubernetes</li>
+<li>Cloud Native</li>
 </ul>
-<h1 id="kompose"><a href="https://github.com/kubernetes/kompose">kompose</a><a class="headerlink" href="#kompose" title="Permanent link">&para;</a></h1>
-<ul>
-<li>only version 1,2 or 3</li>
-<li><a href="https://github.com/kubernetes/kompose/blob/master/docs/conversion.md">conversion matrix</a></li>
-</ul>
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>kompose convert -f compose/docker-compose.kompose.yml --stdout
-</code></pre></div>
-</td></tr></table>
+<p>Actualmente Ofrecemos tres tipos de servicios:</p>
+<div class="tabbed-set" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Consultorías</label><div class="tabbed-content">
+<p>Hello</p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Bootcamps</label><div class="tabbed-content">
+<p>boot</p>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Cursos</label><div class="tabbed-content">
+<p>Udemy</p>
+</div>
+</div>
+<p>Por favor <a href="contact.html">contáctanos</a> si necesitas ayuda en cualquier de estos temas:.</p>
                 
               
               
@@ -890,6 +776,41 @@ docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  compose
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Pie">
+        
+          <a href="index.html" title="Container Bootcamp Expert" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Container Bootcamp Expert
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="about.html" title="Mi" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                Mi
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -944,15 +865,15 @@ docker stack deploy --orchestrator<span class="o">=</span>kubernetes -c  compose
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.c3dc8c49.min.js"></script>
-      <script src="../../assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar al portapapeles", "clipboard.copied": "Copiado al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados"}</script>
+      <script src="assets/javascripts/vendor.c3dc8c49.min.js"></script>
+      <script src="assets/javascripts/bundle.f9edbbd5.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copiar al portapapeles", "clipboard.copied": "Copiado al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados"}</script>
       
       <script>
         app = initialize({
-          base: "../..",
+          base: ".",
           features: ["instant", "tabs"],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.8e2cddea.min.js"
+            worker: "assets/javascripts/worker/search.8e2cddea.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
