@@ -1,9 +1,12 @@
+
+<img src="assets/images/logo.png" class="center" alt="kontinu" style="width:300px;">
+
 # Bienvenido 😃
 
 ??? success
     Gracias por confiar en [kontinu](https://www.kontinu.io) para tu crecimiento.
 
-<img src="/assets/images/container-bootcamp.png" class="center" alt="About me" style="width:auto;">
+<img src="assets/images/container-bootcamp.png" class="center" alt="Bootcamp" style="width:auto;">
 
 ---
 
@@ -17,8 +20,8 @@ A lo largo de 6 días, 3 horas diarias, 18 horas en total, estaremos en este boo
 - Devops
 
 
-??? info "calendario"
-    De igual manera puedes consultar el agenda semanal en esta [página](./agenda.md)
+??? info "Agenda 🗓"
+    Encuentra la agenda semanal en esta [página](./agenda.md)
 ---
 
 # Courses
