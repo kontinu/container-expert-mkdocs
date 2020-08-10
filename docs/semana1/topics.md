@@ -2,7 +2,7 @@
 
 ## [**Día1**](d1.md)
 
-- Docker basics:
+- Docker basics: aprenderemos los basico de Docker
 - Integracion de Docker con nuestra app:
 - Ambientes de desarrollo local:
 

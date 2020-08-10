@@ -10,8 +10,10 @@ nav:
     - Contacto: 'contact.md'
     - Semana 1️:
         Tópicos: 'semana1/topics.md'
+        Pre Requisitos: 'semana1/d1.install.md'
         Día 1:
-          - 'semana1/d1.md'
+          - 'semana1/d1.init.md'
+          - 'semana1/d1.env.md'
         Día 2:
           - 'semana1/d2.md'
         Día 3:
