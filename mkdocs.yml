@@ -30,6 +30,8 @@ nav:
       - Index: 'extras/extras.md'
       - Agenda: 'extras/agenda.md'
       - Feedback: 'extras/feedback.md'
+      - Slack: 'extras/slack.md'
+    - FAQ: 'faq.md'
 
     # - Docker:
     #     - docker/index.md
