@@ -13,8 +13,9 @@ nav:
         Tópicos: 'semana1/topics.md'
         Pre Requisitos: 'semana1/day1/d1.prereq.md'
         Día 1:
+          - "semana1/day1/d1.docker.md"
           - 'semana1/day1/d1.init.md'
-          - 'semana1/day1/env.md'
+          - "semana1/day1/d1.docker-ci.md"
         Día 2:
           - 'semana1/d2.md'
         Día 3:

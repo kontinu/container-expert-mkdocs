@@ -6,6 +6,8 @@ mkdocs-material>=5.0.0
 mkdocs-blog-plugin
 mkdocs-macros-plugin
 mkdocs-encryptcontent-plugin
+
+mkdocs-mermaid-plugin
 # WeasyPrint
 
 # mkdocs-pdf-export-plugin
