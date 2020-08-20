@@ -1,79 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/index.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/kontinu.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/about.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/contact.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/faq.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/topics.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/d1.install.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/day1/d1.prereq.html</loc>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
-     <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/d1.install.html</loc>
-     <lastmod>2020-08-18</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/d1.init.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/day1/d1.init.html</loc>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/d2.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana1/d3.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana2/topics.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana2/d4.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana2/d5.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/semana2/d6.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/extras/extras.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/extras/agenda.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/extras/feedback.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://kontinu.github.io/container-expert-mkdocs/extras/slack.html</loc>
-     <lastmod>2020-08-18</lastmod>
+     <lastmod>2020-08-20</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
